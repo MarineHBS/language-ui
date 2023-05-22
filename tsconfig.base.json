@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@language-ui/auth": ["libs/auth/src/index.ts"],
+      "@language-ui/data-models": ["libs/data-models/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
